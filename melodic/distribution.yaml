@@ -6,6 +6,11 @@ release_platforms:
   ubuntu:
   - bionic
 repositories:
+  boost_sml:
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/boost_sml.git
+      version: master
   geometric_shapes:
     doc:
       type: git
@@ -131,5 +136,21 @@ repositories:
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
       version: master
     status: developed
+  apriltag:
+    source:
+      type: git
+      url: https://github.com/PickNikRobotics/apriltag.git
+      version: master
+    status: maintained
+  universal_robot:
+    source:
+      type: git
+      url: https://github.com/davetcoleman/universal_robot.git
+      version: calibration_devel_moveit_cleanup
+  universal_robots_ros_driver:
+    source:
+      type: git
+      url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver
+      version: 72453e14bfc262ade27c31d2086efc37a26543c6
 type: distribution
 version: 1
