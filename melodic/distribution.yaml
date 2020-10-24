@@ -162,7 +162,7 @@ repositories:
       type: git
       url: https://github.com/davetcoleman/universal_robot.git
       version: calibration_devel_moveit_cleanup
-  universal_robots_ros_driver:
+  ur_robot_driver:
     release:
       tags:
         release: release/melodic/{package}/{version}
