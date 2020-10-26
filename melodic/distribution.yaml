@@ -12,125 +12,36 @@ repositories:
       url: https://github.com/PickNikRobotics/boost_sml.git
       version: master
   geometric_shapes:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/geometric_shapes.git
-      version: noetic-devel
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/ros-planning/geometric_shapes.git
-      version: 0.7.2
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
       version: noetic-devel
     status: developed
   moveit:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/moveit.git
-      version: master
-    release:
-      packages:
-      - chomp_motion_planner
-      - moveit
-      - moveit_chomp_optimizer_adapter
-      - moveit_commander
-      - moveit_core
-      - moveit_fake_controller_manager
-      - moveit_kinematics
-      - moveit_planners
-      - moveit_planners_chomp
-      - moveit_planners_ompl
-      - moveit_plugins
-      - moveit_ros
-      - moveit_ros_benchmarks
-      - moveit_ros_control_interface
-      - moveit_ros_manipulation
-      - moveit_ros_move_group
-      - moveit_ros_occupancy_map_monitor
-      - moveit_ros_perception
-      - moveit_ros_planning
-      - moveit_ros_planning_interface
-      - moveit_ros_robot_interaction
-      - moveit_ros_visualization
-      - moveit_ros_warehouse
-      - moveit_runtime
-      - moveit_servo
-      - moveit_setup_assistant
-      - moveit_simple_controller_manager
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/ros-gbp/moveit-release.git
-      version: 1.0.6-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit.git
       version: master
     status: developed
   moveit_msgs:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/moveit_msgs.git
-      version: master
-    release:
-      tags:
-        release: release/noetic/{package}/{version}
-      url: https://github.com/ros-gbp/moveit_msgs-release.git
-      version: 0.11.1-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_msgs.git
       version: master
     status: maintained
   moveit_resources:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/moveit_resources.git
-      version: master
-    release:
-      packages:
-      - moveit_resources
-      - moveit_resources_fanuc_description
-      - moveit_resources_fanuc_moveit_config
-      - moveit_resources_panda_description
-      - moveit_resources_panda_moveit_config
-      - moveit_resources_pr2_description
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/ros-gbp/moveit_resources-release.git
-      version: 0.7.0-1
     source:
       type: git
       url: https://github.com/ros-planning/moveit_resources.git
       version: master
     status: maintained
   moveit_visual_tools:
-    doc:
-      type: git
-      url: https://github.com/ros-planning/moveit_visual_tools.git
-      version: master
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/ros-gbp/moveit_visual_tools-release.git
-      version: 3.5.2-0
     source:
       type: git
       url: https://github.com/ros-planning/moveit_visual_tools.git
       version: master
     status: developed
   rviz_visual_tools:
-    doc:
-      type: git
-      url: https://github.com/PickNikRobotics/rviz_visual_tools.git
-      version: master
-    release:
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/PickNikRobotics/rviz_visual_tools-release.git
-      version: 3.8.0-4
     source:
       type: git
       url: https://github.com/PickNikRobotics/rviz_visual_tools.git
@@ -147,7 +58,7 @@ repositories:
       type: git
       url: https://github.com/davetcoleman/universal_robot.git
       version: calibration_devel_moveit_cleanup
-  universal_robots_ros_driver:
+  ur_robot_driver:
     source:
       type: git
       url: https://github.com/UniversalRobots/Universal_Robots_ROS_Driver
