@@ -1,0 +1,6 @@
+ur_robot_driver:
+  ubuntu: ros-melodic-ur-robot-driver
+ur_description:
+  ubuntu: ros-melodic-ur-description
+ur_e_description:
+  ubuntu: ros-melodic-ur-e-description
