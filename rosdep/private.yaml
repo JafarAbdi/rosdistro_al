@@ -10,3 +10,8 @@ moveit_resources_prbt_pg70_support:
   ubuntu: ros-melodic-moveit-resources-prbt-pg70-support
 moveit_resources_prbt_support:
   ubuntu: ros-melodic-moveit-resources-prbt-support
+pilz_industrial_motion_planner:
+  ubuntu: ros-melodic-pilz-industrial-motion-planner
+pilz_industrial_motion_planner_testutils:
+  ubuntu: ros-melodic-pilz-industrial-motion-planner-testutils
+
